@@ -8,6 +8,8 @@ const initialState = {
 // todos = [ {id:1, completed: true }, {id:2}, {id:3}, ...]
 // payload       1
 
+// { type: SET_USER, payload: name }
+
 const reducer  = (state = initialState, action) => {
     const { type, payload } = action; // action = { type:..., payload:... }
     switch(type) {
