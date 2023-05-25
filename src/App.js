@@ -8,6 +8,7 @@ function App() {
       <h2 style={{backgroundColor: "lightyellow"}}>Cohorte FT38b</h2>
       <h2>ToDo App</h2>
       <h3>Idea general del proyecto:</h3>
+      <hr/>
       <img src={image} alt="proyecto" style={{width: "700px"}}/>
     </div>
   );
