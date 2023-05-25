@@ -10,6 +10,7 @@ function App() {
       <h3>Idea general del proyecto:</h3>
       <hr/>
       <img src={image} alt="proyecto" style={{width: "700px"}}/>
+      {/* comentario */}
     </div>
   );
 }
